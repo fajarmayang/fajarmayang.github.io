@@ -1,0 +1,556 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* End Font */
+
+/* Start Body */
+body {
+    background-color: #ffffff;
+    color: #01587a;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: white;
+}
+.bg-red {
+    background-color: #e1e8ec;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.ig {
+    width: 50%;
+}
+
+.container-full {
+    margin: 10px auto;
+    margin-left: 30%;
+    overflow: auto;
+    width: 100%;
+}
+h3 {
+    margin-left: 10px;
+}
+
+.container-tentang {
+  background-color: #86C232 ;
+  overflow: auto;
+  width: 100%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    background-color: #4d4845;
+    text-align: left;
+}
+
+.logo-icon {
+    text-align: left;
+}
+/* End Logo */
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+    color:#f3ba00
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color:#01587a
+    text-decoration: underline;
+}
+/* End Anchor / Hyperlink */
+
+/* Start Menu Primer */
+.navbar-main-navbar-default {
+    background-color: #4d4845;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+.snip1241 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.snip1241 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1241 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1em;
+  padding: 0;
+}
+.snip1241 a {
+  padding: 0.5em 0.8em;
+  color: #222629;
+  position: relative;
+  text-decoration: none;
+}
+.snip1241 a:before,
+.snip1241 a:after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+.snip1241 a:before {
+  right: 0;
+  top: 0;
+  border-right: 3px solid #86C232;
+  border-top: 3px solid #86C232;
+  -webkit-transform: translate(-100%, 50%);
+  transform: translate(-100%, 50%);
+}
+.snip1241 a:after {
+  left: 0;
+  bottom: 0;
+  border-left: 3px solid #86C232;
+  border-bottom: 3px solid #86C232;
+  -webkit-transform: translate(100%, -50%);
+  transform: translate(100%, -50%);
+}
+.snip1241 a:hover,
+.snip1241 .current a {
+  color: #222629;
+}
+.snip1241 a:hover:before,
+.snip1241 .current a:before,
+.snip1241 a:hover:after,
+.snip1241 .current a:after {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+/* Demo purposes only */
+/* body {
+  background-color: #ffffff; */
+}
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: #e1e8ec;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+    text-align: center;
+}
+/* End Jumbotron */
+
+/* Start Penawaran */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+.snip1579 {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-width: 80%;
+  max-width: 310px;
+  max-height: 550px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+}
+.snip1579 * {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1579 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1579 figcaption {
+  position: absolute;
+  height: 75px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  overflow: hidden;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.snip1579 h3 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0;
+}
+.snip1579 h5 {
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #bbb;
+  letter-spacing: 1px;
+}
+.snip1579 blockquote {
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  font-size: 1em;
+}
+.snip1579 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1579:hover figcaption,
+.snip1579.hover figcaption {
+  height: calc(85%);
+}
+
+/* Demo purposes only */
+$(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);
+/* End Penawaran */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    margin-left: 5%;
+    width: 30%;
+}
+.main-home-two {
+    float: left;
+    width: 30%;
+}
+
+.main-home-three {
+    float: left;
+    margin-right: 5%;
+    width: 30%;
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi,
+.main-home-three .box-isi {
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+/* End Main */
+
+/* Start Box */
+.box-heading {
+    background-color: blanchedalmond;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    border-width: 20%;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color: white;
+    border: 1px solid #eaecef;
+    border-top: 0;
+    margin: auto;
+    padding: 10px 20 px;
+}
+
+/* End Box */
+
+/* Start Testimonial */
+.testimonial {
+    border-left: 4px solid #dfe2e5;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/* End Testimonial */
+
+/* Start Form */
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 14px;
+    padding: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #888888;
+    font-weight: 300;
+}
+
+input[type="submit"] {
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+    border: 1px solid rgba(27, 31, 35, 0.2);
+    border-radius: 4px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* End Form */
+
+/* Start Contact Form */
+.contact-form div {
+    margin: 20px 0;
+}
+/* End Contact Form */
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+    background-color: #e1e8ec;
+    color: #222629;
+    margin-left: 0px;
+    overflow: auto;
+    padding: 10px 0;
+}
+
+.menu-sekunder h4 {
+    font-size: 13px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.menu-sekunder ul {
+    padding : 0;
+}
+
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 12px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+    margin-left: 10%;
+}
+
+.menu-sekunder-one {
+    margin-left: 20px;
+    width: 35%;
+}
+
+.menu-sekunder-two {
+    width: 10%;
+}
+
+.menu-sekunder-three {
+    width: 15%;
+}
+
+.menu-coloumn-dua {
+  float: left;
+  margin-left: 10%;
+  width: 40%;
+}
+
+.tagline-footer {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 5px;
+}
+
+.tagline-logo {
+    display: inline-block;
+    padding: 10px;
+}
+
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright {
+    font-size: 15px;
+}
+/* End Copyright */
+
+/* Start Effect */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.snip1584 {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 31%;
+  max-width: 31%;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+.snip1584 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1584:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 100%;
+  content: '';
+  background-color: rgba(51, 51, 51, 0.9);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+.snip1584 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+.snip1584 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.snip1584 h3,
+.snip1584 h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+.snip1584 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  margin-bottom: 5px;
+}
+.snip1584 h5 {
+  font-weight: normal;
+  background-color: #ae895d;
+  padding: 3px 10px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1584:hover:before,
+.snip1584.hover:before {
+  top: 10px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584:hover h3,
+.snip1584.hover h3,
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.snip1584:hover h3,
+.snip1584.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+/* End Effect */
