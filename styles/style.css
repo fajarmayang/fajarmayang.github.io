@@ -28,7 +28,6 @@ body {
     margin: 10px auto;
     overflow: auto;
     width: 100%;
-    margin-left: 20px;
 }
 
 .ig {
@@ -46,9 +45,9 @@ h3 {
 }
 
 .container-tentang {
-  background-color: #86C232 ;
+  margin-left: 10%;
   overflow: auto;
-  width: 100%;
+  width: 80%;
 }
 /* End Container */
 
@@ -175,6 +174,7 @@ h6 {
     font-size: 13px;
 }
 
+
 /* End Heading */
 
 /* Start Jumbotron */
@@ -182,6 +182,8 @@ h6 {
     background-color: #e1e8ec;
     border: 1px solid #eaecef;
     border-radius: 4px;
+    overflow: auto;
+    width: 100%;
 }
 .jumbotron h1 {
     font-size: 32px;
@@ -326,6 +328,15 @@ $(".hover").mouseleave(
     padding: 10px 20 px;
 }
 
+.box-layanan {
+    background-color: white;
+    border: 1px solid #eaecef;
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    margin: auto;
+    padding: 10px 20 px;
+
+}
 /* End Box */
 
 /* Start Testimonial */
@@ -422,7 +433,20 @@ input[type="submit"] {
 .menu-coloumn-dua {
   float: left;
   margin-left: 10%;
-  width: 40%;
+  width: 35%;
+}
+
+.layanan-coloumn-dua {
+  float: left;
+  margin-left: 10%;
+  width:70%;
+}
+.box-kiri {
+  float: left;
+}
+
+.box-kanan{
+  float: right;
 }
 
 .tagline-footer {
@@ -435,6 +459,12 @@ input[type="submit"] {
 .tagline-logo {
     display: inline-block;
     padding: 10px;
+}
+
+.logo-icon {
+  display: inline-block;
+  float: left;
+  width: 40%;
 }
 
 /* End Menu Sekunder */
@@ -554,3 +584,35 @@ input[type="submit"] {
   transition-delay: 0.2s;
 }
 /* End Effect */
+.navbar-main-menu{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+}
+.navbar-main-logo{
+  display: inline-block;
+}
+.menu-leading-icon {
+  display: inline-block;
+  vertical-align: top;
+}
+.menu-text {
+  vertical-align: top;
+  display: inline-block;
+  margin: 0;
+}
+.judul {
+  margin-left: 10px;
+}
+.menu-item-mt {
+  margin-top: 10px;
+}
+.socmed-icon-margin {
+  margin-right: 10px;
+}
+.anchor-no-decoration {
+  text-decoration: none;
+}
+
+/* Start Mobile Responsive */
+/* End Mobile Responsive */

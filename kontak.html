@@ -23,7 +23,7 @@
                 <!-- Start Logo -->
                 <div class="navbar-main-logo">
                     <a href="index.html" title="Iklanin Websiteku">
-                        <img src="images/logo-iklaninwebsiteku.jpg" alt="Logo Iklanin Websiteku" width="170">
+                        <img src="images/logo-iklaninwebsiteku.jpg" alt="Logo Iklanin Websiteku" width="100">
                     </a>
                 </div>
                 <!-- End Logo -->
@@ -31,69 +31,82 @@
                 <!-- Start Menu Primer -->
                 <div class="navbar-main-menu">
                     <ul class="snip1241">
-                        <li class="current"><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="tentang.html">Tentang Kami</a></li>
                         <li><a href="layanan.html">Layanan</a></li>
                         <li><a href="testimoni.html">Testimoni</a></li>
-                        <li><a href="kontak.html">Kontak</a></li>
+                        <li class="current"><a href="kontak.html">Kontak</a></li>
                     </ul>
                 </div>
             </div>
             <!-- End Logo & Menu Primer -->
 
-        <!-- Start Alamat -->
+        <!-- Start Judul Alamat & Form -->
+        <div class="container jumbotron">
+            <h1>Kontak Kami</h1>
+        </div>
+        
         <div class="container">
-            <a href="index.html" title="Home">Home</a>
-                > Kontak 
-                <h2>Kontak Iklanin Websiteku</h2>                  
-                    <ul>
-                        <li>Alamat: Jl. Poh Gading. Jimbaran-Kuta Selatan-Badung-Bali</li>
-                        <li>Email: <a href="mailto:admin@iklaninwebsiteku.com" title="admin@iklaninwebsiteku.com">admin@iklaninwebsiteku.com</a></li>
-                        <li>Telepon atau Whatsapp: <a href="tel:+62-823-424-771-23" title="+62-823-424-771-23">+62-823-424-771-23</a></li>
-                    </ul>
+            <div class=:"judul">
+                <a href="index.html" title="Home">Home</a>
+                    > Tentang Kami
+            </div>                  
+                        
+        <!-- End Judul Alamat & Form -->
+
+        <!-- Start Alamat & Form -->
+        <div class="menu-coloumn-dua">       
+            <!-- Start Alamat -->
+            <ul>
+                <a class="logo-icon"<img src="images/icon-location.png"></a>
+            </ul>
         </div>
         <!-- End Alamat -->
-        <hr>
-        <!-- Start Form -->
-        <div class="container">
-            <h2>Form Kontak Iklanin Websiteku</h2>
-            <p>Anda bisa memesan dan konfirmasi pembayaran melalui Form di bawah ini:</p>
+            <hr>
+            <!-- Start Form -->
+            <div class="container">
+                <h2>Form Kontak</h2>
+                <p>Anda bisa memesan dan konfirmasi pembayaran melalui Form di bawah ini:</p>
+                <div class="menu-coloumn-dua"> 
+                    <form action="https://formspree.io/xvopjokb" class=" contact-form">
+                        <div>
+                            <label for="nama">Nama Lengkap</label>
+                            <br>
+                            <input type="text" placeholder="Nama Lengkap" size="50" name="nama" id="nama">
+                        </div>
 
-            <form action="" class=" contact-form">
-                <div>
-                    <label for="nama">Nama Lengkap</label>
-                    <br>
-                    <input type="text" placeholder="Nama Lengkap" size="50" name="nama" id="nama">
-                </div>
+                        <div>
+                            <label for="telepon">Telepon</label>
+                            <br>
+                            <input type="text" placeholder="Telepon" size="50" name="telepon" id="telepon">
+                        </div>
 
-                <div>
-                    <label for="telepon">Telepon</label>
-                    <br>
-                    <input type="text" placeholder="Telepon" size="50" name="telepon" id="telepon">
-                </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <br>
+                            <input type="text" placeholder="example@example.com" size="50" name="email" id="email">
+                        </div>
+                        
+                        <div>
+                            <label for="alamat lengkap">Alamat Lengkap</label>
+                            <br>
+                            <input type="text" placeholder="Alamat Lengkap" size="50" name="alamat lengkap" id="alamat lengkap">
+                        </div>
 
-                <div>
-                    <label for="email">Email</label>
-                    <br>
-                    <input type="text" placeholder="example@example.com" size="50" name="email" id="email">
-                </div>
-                
-                <div>
-                    <label for="alamat lengkap">Alamat Lengkap</label>
-                    <br>
-                    <input type="text" placeholder="Alamat Lengkap" size="50" name="alamat lengkap" id="alamat lengkap">
-                </div>
+                        <div>
+                            <label for="pesan">Pesan</label>
+                            <br>
+                            <textarea name="pesan" id="pesan" cols="51" rows="10" placeholder="Silahkan tulis pesan atau keterangan"></textarea>
+                        </div>
 
-                <div>
-                    <label for="pesan">Pesan</label>
-                    <br>
-                    <textarea name="pesan" id="pesan" cols="51" rows="10" placeholder="Silahkan tulis pesan atau keterangan"></textarea>
-                </div>
-
-                <div>
-                    <input type="submit" name="kirim" id="kirim" size="20" value="Kirim">
-                </div>
-            </form>
+                        <div>
+                            <input type="submit" name="kirim" id="kirim" size="20" value="Kirim">
+                        </div>
+                    </form>
+                </div>    
+            <!-- End Form -->   
+        </div>
+        <!-- End Alamat & Form -->
 
             <!-- Star Maps -->
             <div class="container">
@@ -104,73 +117,95 @@
         </div>
         <!-- End Form -->
 
-        <!-- Start Menu Sekunder -->
         <div class="container-full menu-sekunder">
-            <div class="container">
-
-                <!-- Start Iklanin Websiteku -->
-                <div class="menu-sekunder-one">
-                    <h4>Iklanin Websiteku</h4>
-                    <br>
-                    <a href="index.html" title="Iklanin Websiteku">
-                        <img src="images/logo-iklaninwebsiteku-icon.jpg" class="tagline-logo" alt="Logo Iklanin Websiteku" width="50" />
-                        <p class="tagline-footer">Jasa Pembuatan Website, Internet Marketing dan <br> Desain Grafis yang berlokasi di Bali.</p>
-                    </a>
-                    <br>    
-                    <h4>Media Sosial</h4>
-                    <br>
-                        <a href="https://facebook.com/fajar.mayang.3" title="Facebook">
-                            <img src="images/logo-fb.jpg" alt="Logo Facebook" width="30">
+                <div class="container">
+    
+                    <!-- Start Iklanin Websiteku -->
+                    <div class="menu-sekunder-one">
+                        <h4>Iklanin Websiteku</h4>
+                        <br>
+                        <a class="anchor-no-decoration" href="index.html" title="Iklanin Websiteku">
+                            <img src="images/logo-iklaninwebsiteku-icon.jpg" class="tagline-logo" alt="Logo Iklanin Websiteku" width="50" />
+                            <p class="tagline-footer">Jasa Pembuatan Website, Internet Marketing dan <br> Desain Grafis yang berlokasi di Bali.</p>
                         </a>
-                        <a href="https://instagram.com/fajarmayang/?hl=id" title="Instagram">
-                            <img src="images/logo-ig.jpg" alt="Logo Instagram" width="30">
-                        </a>
-                        <a href="https://linkedin.com/in/fajar-mayang-923597a9/" title="Linkedin">
-                            <img src="images/logo-linkedin.jpg" alt="Logo Linkedin" width="30">
-                        </a>
+                        <br>    
+                        <h4>Media Sosial</h4>
+                        <br>
+                            <a class="socmed-icon-margin anchor-no-decoration" href="https://facebook.com/fajar.mayang.3" title="Facebook">
+                                <img src="images/logo-fb.jpg" alt="Logo Facebook" width="30">
+                            </a>
+                            <a class="socmed-icon-margin anchor-no-decoration" href="https://instagram.com/fajarmayang/?hl=id" title="Instagram">
+                                <img src="images/logo-ig.jpg" alt="Logo Instagram" width="30">
+                            </a>
+                            <a class="socmed-icon-margin anchor-no-decoration" href="https://linkedin.com/in/fajar-mayang-923597a9/" title="Linkedin">
+                                <img src="images/logo-linkedin.jpg" alt="Logo Linkedin" width="30">
+                            </a>
+                    </div>
+                    <!-- End Iklanin Websiteku -->
+                     
+                    <!-- Start Menu -->
+                    <div class="menu-sekunder-two">
+                        <h4>Menu</h4>
+                        <ul>
+                            <a href="index.html" title="Home">Home</a>
+                            <br>
+                            <a href="tentang.html" title="Tentang Kami">Tentang Kami</a>
+                            <br>
+                            <a href="layanan.html" title="Layanan">Layanan</a>
+                            <br>
+                            <a href="testimoni.html" title="Testimoni">Testimoni</a>
+                            <br>
+                            <a href="kontak.html" title="Kontak Kami">Kontak Kami</a>
+                        </ul>
+                    </div>   
+                    <!-- End Menu -->
+                    
+                    <!-- Start Contact-->
+                    <div class="menu-sekunder-three">
+                        <h4>Kontak Kami</h4>
+                        <div class="menu-item-mt">
+                            <img class="menu-leading-icon" src="images/icon-location.png" alt="Jimbaran" width="25px" />
+                            <p class="menu-text">Jimbaran</p>
+                        </div>
+                        <div class="menu-item-mt">
+                            <img class="menu-leading-icon" src="images/icon-email.png" alt="Email Iklanin Websiteku" width="25px">
+                            <p class="menu-text">
+                                <a href="mailto:admin@iklaninwebsiteku.com" title="admin@iklaninwebsiteku.com">admin@iklaninwebsiteku.com</a>
+                            </p>
+                        </div>
+                        <div class="menu-item-mt">
+                            <img class="menu-leading-icon" src="images/icon-wa.png" alt="Email Iklanin Websiteku" width="25px">
+                            <p class="menu-text">
+                                <a href="tel:+62-823-424-77123" title="tel:+62-823-424-77123">+62-823-424-77123</a>
+                            </p>
+                        </div>
+                    </div>        
+                    <!-- End Contact-->
                 </div>
-                <!-- End Iklanin Websiteku -->
-                 
-                <!-- Start Menu -->
-                <div class="menu-sekunder-two">
-                    <h4>Menu</h4>
-                    <ul>
-                        <a href="index.html" title="Home">Home</a>
-                        <br>
-                        <a href="tentang.html" title="Tentang Kami">Tentang Kami</a>
-                        <br>
-                        <a href="layanan.html" title="Layanan">Layanan</a>
-                        <br>
-                        <a href="artikel.html" title="Artikel">Artikel</a>
-                        <br>
-                        <a href="pembayaran.html" title="Cara Pembayaran">Cara Pembayaran</a>
-                        <br>
-                        <a href="faq.html" title="FAQ">FAQ</a>
-                        <br>
-                        <a href="kontak.html" title="Kontak Kami">Kontak Kami</a>
-                    </ul>
-                </div>   
-                <!-- End Menu -->
-                
-                <!-- Start Contact-->
-                <div class="menu-sekunder-three">
-                    <h4>Kontak Kami</h4>
-                        <p><img src="images/icon-location.png" alt="Jimbaran" width="25px">Jimbaran</p>
-                        
-                        <p><img src="images/icon-email.png" alt="Email Iklanin Websiteku" width="25px"><a href="mailto:admin@iklaninwebsiteku.com" title="admin@iklaninwebsiteku.com">admin@iklaninwebsiteku.com</a></p>
-                        
-                        <p><img src="images/icon-wa.png" alt="Email Iklanin Websiteku" width="25px"><a href="tel:+62-823-424-77123" title="tel:+62-823-424-77123">+62-823-424-77123</a></p>
-                </div>        
-                <!-- End Contact-->
+            </div>    
+            <!-- End Menu Sekunder -->
+    
+            <!-- Start Copyright -->
+            <div class="container Copyright">
+                <p>Copyright &copy; 2019 - Iklanin Websiteku</p>
             </div>
-        </div>    
-        <!-- End Menu Sekunder -->
-
-        <!-- Start Copyright -->
-        <div class="container Copyright">
-            <p>Copyright &copy; 2019 - Iklanin Websiteku</p>
-        </div>
-        <!-- End Copyright -->
+            <!-- End Copyright -->
+            
+            <!-- WhatsHelp.io widget -->
+            <script type="text/javascript">
+                (function () {
+                    var options = {
+                        whatsapp: "+6282342477123", // WhatsApp number
+                        call_to_action: "Chat", // Call to action
+                        position: "right", // Position may be 'right' or 'left'
+                    };
+                    var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+                    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+                    s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+                    var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+                })();
+            </script>
+            <!-- /WhatsHelp.io widget -->
         
     </body>
 </html>
